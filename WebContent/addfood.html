@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<link href="bootstrap.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+
+<div class="jumbotron m-0">
+<img src="123.png" class="Basket Image" width="200px" height="200px"/>
+<h1 class="text-primary">Add food</h1>
+</div>
+
+<div class="m-2 p-3">
+</div>
+
+<form action="AddFood" method="post" class="col-6">
+
+<div class="form-group">
+<label for="name">Enter Name</label>
+<input type="text" name="name" id="name" class="form-control"required/>
+</div>
+
+
+<div class="form-group">
+<label for="price">Enter Price</label>
+<input type="number" name="price" id="price" class="form-control" required/>
+</div>
+
+<div class="form-group">
+<label for="desc">Enter description</label>
+<input type="text" name="desc" id="desc" class="form-control" required/>
+</div>
+
+
+<div class="form-group">
+
+<input type="submit" value="Add food item" class="btn btn-primary"/>
+<a href="FoodList" class="btn btn-link">View Products </a>
+</div>
+
+</form>
+
+</body>
+</html>
